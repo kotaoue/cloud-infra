@@ -1,0 +1,3 @@
+# Pinned Terraform version for this monorepo.
+# Phase 2 and Phase 3 additions must remain compatible with this version.
+1.7.0
