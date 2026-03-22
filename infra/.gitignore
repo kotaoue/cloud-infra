@@ -1,0 +1,18 @@
+# Terraform state files — never commit these; they may contain sensitive data
+*.tfstate
+*.tfstate.backup
+
+# Terraform working directory — created by `terraform init`
+.terraform/
+
+# Variable files — likely to contain secrets; use *.tfvars.example for templates
+*.tfvars
+# Keep example variable files in version control
+!*.tfvars.example
+
+# Common OS files
+.DS_Store
+
+# Editor directories
+.idea/
+.vscode/
